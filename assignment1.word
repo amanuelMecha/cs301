@@ -1,0 +1,57 @@
+Review Questions
+For each of the following problems write a defining table.
+Then write an algorithm with numbered steps to solve the
+problem. Then label each step with the name of the basic
+computer operation that the computer will use during that
+step.
+1. Your company needs a program to compute the amount
+to charge customers for mowing their lawns for an entire
+season. An employee will type in the total area of the
+customer’s lawn in square feet. Your company charges 10
+cents per square foot to mow a lawn one time and will
+mow each lawn once a week for 15 weeks.
+Input	Defining table properties	output
+-Get total area in square feet
+	-For one-week charge: multiply the total area by 10 cents
+-For the amount to charge for the entire season = multiple  = value of one-week charge with 15 weeks
+	The amount to charge for the entire season
+
+2. You have been asked to write a computer program that
+will output an employee’s after tax pay. Your program will
+read from the keyboard the number of regular hours and
+overtime hours that the employee worked and the
+employee’s regular hourly wage. The employee is paid a
+bonus of 1.5 times regular pay for each overtime hour
+worked. Tax is 15% of the employee’s gross pay.
+
+
+
+
+
+
+Input	Defining table properties	output
+A list of employee worked hours
+Get:
+-regular hours
+-overtime hours
+-regular hourly wage
+	For each employee
+-regular payment =regular hours * regular hourly wage
+-Bonus =overtime hours *1.5*regular hourly wage
+- regular payment with bonus : Add regular payment + bonus
+-tax = multiple 15% by the value of regular payment with bonus
+-subtract the tax values from regular payment with bonus	Net payment of the employee
+
+3. Which of the following are control structures? (Mark all
+that apply.)
+a. input
+b. computation
+c. sequence
+d. selection
+e. repetition
+f. try, catch, and throw
+g. storage
+h. output
+
+
+
