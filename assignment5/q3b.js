@@ -1,13 +1,13 @@
 let houseV;
-let livingSpace;
+let livingSpaceV;
 let area;
 let roofV;
 function doInputOutput(){
     let input = require('prompt-sync')();
-    let n1 = parseFloat(input("Enter  1 number :"));
-    let n2 = parseFloat(input("Enter  2 number :"));
-    let n3 = parseFloat(input("Enter  3 number :"));
-    let n4 = parseFloat(input("Enter  4 number :"));
+    let n1 = parseFloat(input("Enter  your first number :"));
+    let n2 = parseFloat(input("Enter your second number :"));
+    let n3 = parseFloat(input("Enter  your third number :"));
+    let n4 = parseFloat(input("Enter  your fourth number :"));
     //console.log(n1,n2,n3n)
 houseVolume(n1,n2,n3,n4);
 }
@@ -16,12 +16,12 @@ function houseVolume(width, depth, height, sweep){
 livingVolume(width, depth, height);
 roofVolume(width, depth,sweep);
 
-houseV = livingSpace + roofV;
+houseV = livingSpaceV + roofV;
 console.log(houseV)   ;
 }
 function livingVolume(width, depth, height){
-    livingSpace = width*depth*height;
-    return  livingSpace;
+    livingSpaceV = width*depth*height;
+    return  livingSpaceV;
 }
 
 function roofVolume(width, depth,sweep){
