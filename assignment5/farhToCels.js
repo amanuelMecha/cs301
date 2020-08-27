@@ -1,4 +1,4 @@
-// C = 5/9 x (F - 32)
+'use strict';
 
 function farhToCels(fahrenheit) {
     let c;
