@@ -6,12 +6,12 @@ function checkPrime(n) {
             count++;
         }
     }
-    console.log(count === 0);
+    return count === 0;
 }
 
 let prompt = require('prompt-sync')();
 let number = parseFloat(prompt("Enter a number :"));
 
-checkPrime(number);
+console.log(checkPrime(number));
 
 
