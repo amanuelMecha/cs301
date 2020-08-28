@@ -1,6 +1,6 @@
 'use strict';
-let days = ["first","second","third","fourth","fifth","sixth","seventh","eighth","ninth","tenth","eleventh","twelfth"];
-let gifts = ["a partridge in a pear tree","turtle doves","French hens","calling birds","golden rings","geese a laying","swans a swimming","maids a milking","ladies dancing",
+const days = ["first","second","third","fourth","fifth","sixth","seventh","eighth","ninth","tenth","eleventh","twelfth"];
+const gifts = ["a partridge in a pear tree","turtle doves","French hens","calling birds","golden rings","geese a laying","swans a swimming","maids a milking","ladies dancing",
 "lords a leaping","pipers piping","drummers drumming"];
 let input =require('prompt-sync')();
 let day = parseInt(input("Enter an integer b/n 1 to 12: "));
