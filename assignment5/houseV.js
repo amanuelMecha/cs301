@@ -31,8 +31,8 @@ function roofVolume(width, depth, sweep) {
     return roofV;
 }
 function triangleArea(a, b, c) {
-    let s = (a + b + c) / 2;
-    area = Math.sqrt((s * (s - a) * (s - b) * (s - c)));
+    let s = (b + c + c) / 2;
+    area = Math.sqrt((s * (s - b) * (s - c) * (s - c)));
 
     return area;
 }
