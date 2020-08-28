@@ -5,12 +5,12 @@ let area;
 let roofV;
 function doInputOutput() {
     let input = require('prompt-sync')();
-    let n1 = parseFloat(input("Enter  your first number :"));
-    let n2 = parseFloat(input("Enter your second number :"));
-    let n3 = parseFloat(input("Enter  your third number :"));
-    let n4 = parseFloat(input("Enter  your fourth number :"));
+    let width = parseFloat(input("Enter  the width of the house :"));
+    let depth = parseFloat(input("Enter the depth of the house :"));
+    let heigth = parseFloat(input("Enter  the heigth of the house :"));
+    let sweep = parseFloat(input("Enter  the sweep of the house :"));
     //console.log(n1,n2,n3n)
-    houseVolume(n1, n2, n3, n4);
+    houseVolume(width, depth, heigth, sweep);
 }
 function houseVolume(width, depth, height, sweep) {
 
