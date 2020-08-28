@@ -10,7 +10,8 @@ function doInputOutput() {
     let heigth = parseFloat(input("Enter  the heigth of the house :"));
     let sweep = parseFloat(input("Enter  the sweep of the house :"));
     //console.log(n1,n2,n3n)
-    houseVolume(width, depth, heigth, sweep);
+    let volume = houseVolume(width, depth, heigth, sweep);
+    console.log(volume);
 }
 function houseVolume(width, depth, height, sweep) {
 
@@ -18,7 +19,7 @@ function houseVolume(width, depth, height, sweep) {
     roofVolume(width, depth, sweep);
 
     houseV = livingSpaceV + roofV;
-    console.log(houseV);
+    return houseV;
 }
 function livingVolume(width, depth, height) {
     livingSpaceV = width * depth * height;
