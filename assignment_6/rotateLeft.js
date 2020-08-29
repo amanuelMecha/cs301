@@ -7,10 +7,8 @@ function rotateLeft(list) {
         left[j] = list[i];
         j++;
     }
-    console.log(left.concat(y));
-    
-
+    return left.concat(y);
 }
 
-let list = [25,17, 8, 9, 5, 20];
-rotateLeft(list);
+let list = [25, 17, 8, 9, 5, 20];
+console.log(rotateLeft(list));
