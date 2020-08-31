@@ -1,3 +1,4 @@
+'use strict';
 function titleCase(s) {
     let c = s[0].toUpperCase();
     let arr = "";
