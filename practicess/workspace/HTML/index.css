@@ -1,0 +1,41 @@
+h5{
+    color :yellow;
+}
+
+p{
+    color: red;
+    background-color: salmon;
+}
+#first{
+    font-style: italic;
+    color:black;
+
+}
+
+.age { /* any element with class="special" */
+    background-color: yellow; font-weight: bold;
+}
+.state { /* only p elements with class="shout" */
+    color: red;
+    font-family: cursive;
+    }
+p.dept{
+    font-style: italic;
+    color: #000000;
+}
+
+h1{
+    color :rgb(128,0,196);
+    background-color: white;
+}
+ul{
+    color: green;
+}
+.fname { /* any element with class="special" */
+    background-color: yellow; font-weight: bold;
+    }
+/* 
+body {
+    background-color: yellow;
+}     */
+    

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My biography</title>
+</head>
+<link href="index.css" rel="styleshhet"/>
+<body>
+    <h1>Amanuel Mecha</h1>
+    <p>I'm Amanuel and msd student!
+        <a href="https://www.imdb.com/title/tt0120338/">About me</a><br />
+        <button onclick="sum()">submit</button>
+    </p>
+    <input type="text"><br /><br />
+    <!-- <script>
+        function sum() {
+            let name = prompt("what is your name?")
+            alert(name + " welcome to MIU")
+        }
+    </script> -->
+
+    <button>Click Me</button><br>
+    <textarea></textarea><br />
+
+    First Name: <input id="firstname" type="text" /> <br />
+    Last Name: <input id="lastname" type="text" /><br />
+    <button onclick="name()">show</button>
+    <p id="output"></p>
+    <script>
+        function name(){
+            let fname = document.getElementById('firstname').value;
+            let lname = document.getElementById('lastname').value;
+            let fullname = fname + " " + lname;
+            document.getElementById("output").innerHTML = fullname;
+
+        }
+    </script>
+</body>
+
+</html>

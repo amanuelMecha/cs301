@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function calAge(){
+                let now = new Date();
+                let current_y = now.getFullYear();
+                let birth_year = parseInt((document.getElementById("age")).value);
+                let output = current_y - birth_year;
+                document.getElementById("out").innerHTML = output;
+            }
+
+        </script>
+    </head>
+    <body>
+       Please enter your year of birth: <input type="text"  id="age"/><br/>
+       <button type="button" onclick="calAge()">submit</button>
+       <span id="out"></span>
+
+    </body>
+</html>

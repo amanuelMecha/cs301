@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>A program to Say Hello</title>
+    
+    <script>
+        function greetUser(){
+            let name =prompt("Please enter your name ");
+            let greeting = "Hello "+ name + "I hope you are well today.";
+            alert(greeting);
+        }
+    </script>
+    <script>
+        function applyScripture(){
+            let name = document.getElementById('nameInputBox').value;
+            let scripture = "I, "+ name +", having somewhat goodly parents, therefore I was taught somewhat in all the learning of my father.";
+            document.getElementById('outputDIv').innerHTML = scripture;
+        }
+    </script>
+</head>
+<body>
+    please enter your name: 
+    <input type ="text" id="nameInputBox">
+    <button type="button" onclick="applyScripture()"><b>Verse</b></button><br/>
+    <button type="button" onclick ="greetUser()">message</button>
+    <div id ="outputDIv"></div>
+</body>
+
+
+</html>
